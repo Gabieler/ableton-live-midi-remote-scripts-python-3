@@ -1,3 +1,5 @@
+Below are the contents of the original README file, which still state that the code doesn't work with Live 11. Not that this is no longer the case.
+
 # Ableton Live Custom MIDI Remote Scripts
 
 Scripts for creating custom MIDI Remote Scripts for Ableton Live.
