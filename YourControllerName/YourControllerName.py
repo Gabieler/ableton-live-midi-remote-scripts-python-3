@@ -94,7 +94,7 @@ class YourControllerName(ControlSurface):   # Make sure you update the name
         # range(tsb_x) is the horizontal count for the track selection box
         self._scene_launch_buttons = [self._note_map[SCENELAUNCH[index]] for index in range(TSB_X)]
         # range(tsb_y) Range value is the track selection
-        self._track_stop_buttons = [self._note_map[TRACKSTOP[index]] for index in range(TSB_Y)]
+        self._track_stop_buttons = [self._note_map[TRACKSTOP[index]] for index in range(TSB_X)]
         self._session.set_stop_all_clips_button(self._note_map[STOPALLCLIPS])
         self._session.set_stop_track_clip_buttons(tuple(self._track_stop_buttons))
         self._session.selected_scene().name = 'Selected_Scene'
