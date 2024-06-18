@@ -62,14 +62,14 @@ SEEKFWD = -1  # Seek forward
 SEEKRWD = -1  # Seek rewind
 
 # Session Navigation (aka "red box")
-SESSIONLEFT = -1  # Session left
-SESSIONRIGHT = -1  # Session right
-SESSIONUP = -1  # Session up
-SESSIONDOWN = -1  # Session down
-ZOOMUP = -1  # Session Zoom up
-ZOOMDOWN = -1  # Session Zoom down
-ZOOMLEFT = -1  # Session Zoom left
-ZOOMRIGHT = -1  # Session Zoom right
+SESSIONLEFT = 1  # Session left
+SESSIONRIGHT = 2  # Session right
+SESSIONUP = 3  # Session up
+SESSIONDOWN = 4  # Session down
+ZOOMUP = 5  # Session Zoom up
+ZOOMDOWN = 6  # Session Zoom down
+ZOOMLEFT = 7  # Session Zoom left
+ZOOMRIGHT = 8  # Session Zoom right
 
 # Track Navigation
 TRACKLEFT = -1  # Track left
